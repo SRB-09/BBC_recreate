@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title>Sign-In</title>
+    <meta name="author" content="Suraj Raj Ranabhat">
+    <meta name="description" content="BBC Sign In page made for project related to web design course of Broadway Infosys">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" 
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+    </script>
+
+
+    <!-- background image on right side of screen  -->
+    <div class="sbbackground"></div>
+    <a href="index.html" id="cross">
+        <i class="fa-solid fa-x" style="color: #000000;"></i>
+    </a>
+    
+    <div class="container">
+        <div id="signin">
+            <!-- BBC logo goes to BBC home page  -->
+            <a href="index.html"><img src="Group 20.png" alt="BBC logo"></a>
+            <h2><B>Sign in</B></h2>
+
+            <!-- Sign in box  -->
+            <form action="#">
+                <!-- Email or username  -->
+                <input type="text" placeholder="Email or username">
+                <div id="show">
+                    <!-- Password box, shows and hides content when clicked on "show/hide" button  -->
+                    <input type="password" name="" id="password" placeholder="Password">
+                    <button class="btn" id="show-password">Show / Hide</button>
+                </div>
+
+                <!-- Submit button  -->
+                <button type="submit" id="submit">Sign in</button>
+
+                <a href="#" id="help">Need help signing in?</a>
+            </form>
+
+            <hr>
+
+            <h2>Don't have a BBC account?</h2>
+
+            <a href="#" id="register">Register now</a>
+        </div>
+    </div>
+
+
+    <br>
+    
+    <!-- Footer  -->
+    <footer>
+        <a href="#">Find out more about BBC accounts</a>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Terms of use</a>
+                </li>
+
+                <li>
+                    <a href="#">About the BBC</a>
+                </li>
+
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+
+                <li>
+                    <a href="#">Accessibility Help</a>
+                </li>
+
+                <li>
+                    <a href="#">Parental Guidaince</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact the BBC</a>
+                </li>
+
+                <li>
+                    <a href="#">Get Personalized Newsletters</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <p>Copyright © 2023 BBC. The BBC is not responsible for the content of external sites. </p>
+        <a href="#" id="last">Read about our approach to external linking.</a>
+
+    </footer>
+    
+    <script src="signin.js"></script>
+    <script src="https://kit.fontawesome.com/b9f552c372.js" crossorigin="anonymous"></script>
+
+   
+</body>
